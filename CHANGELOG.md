@@ -1,3 +1,33 @@
+<a name="3.1.3"></a>
+## [3.1.3](https://github.com/akveo/react-native-ui-kitten/compare/v3.1.2...v3.1.3) (2019-04-02)
+
+### Bug Fixes
+
+* **rkChoiceGroup:** incorrect children selection ([27f5c49](https://github.com/akveo/react-native-ui-kitten/commit/27f5c49))
+
+* **rkChoice:** incorrect `onChange` args ([ef5bf27](https://github.com/akveo/react-native-ui-kitten/commit/ef5bf27))
+
+* **rkTextInput:** focus behavior when `onPress` called ([3598613](https://github.com/akveo/react-native-ui-kitten/commit/3598613))
+
+* **rkSwitch:** thumb animation ([1492f41](https://github.com/akveo/react-native-ui-kitten/commit/1492f41))
+
+### Features
+
+* **rkTabSet:** component implementation ([5929820](https://github.com/akveo/react-native-ui-kitten/commit/5929820))
+
+* **rkCalendar:** component implementation ([5daf561](https://github.com/akveo/react-native-ui-kitten/commit/5daf561))
+
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/akveo/react-native-ui-kitten/compare/v3.1.0...v3.1.1) (2018-09-20)
+
+### Features
+
+* **rkText:** add prop-types validation ([ea193cb](https://github.com/akveo/react-native-ui-kitten/commit/ea193cb))
+
+### Notes
+
+* **rkAvoidKeyboard:** this component is deprecated since 3.1.1 version. Will be completely deleted in 3.2.0 version.
+
 <a name="3.1.2"></a>
 ## [3.1.2](https://github.com/akveo/react-native-ui-kitten/compare/v3.1.1...v3.1.2) (2018-09-21)
 
