@@ -143,12 +143,14 @@ export class RkTextInput extends RkComponent {
     ]),
     style: ViewPropTypes.style,
     inputStyle: ViewPropTypes.style,
+    onPress: PropTypes.func,
   };
   static defaultProps = {
     editable: true,
     label: null,
     style: null,
     inputStyle: null,
+    onPress: null,
   };
   componentName = 'RkTextInput';
   typeMapping = {
@@ -170,6 +172,8 @@ export class RkTextInput extends RkComponent {
   focusInput = () => {
     if (this.props.editable) {
       this.inputRef.focus();
+    } else if (this.props.onPress) {
+      this.props.onPress();
     }
   };
 
