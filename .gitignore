@@ -42,3 +42,12 @@ docs/docs.json
 docs/output.json
 
 .expo
+
+.github
+.idea
+example
+docs
+node_modules
+android/build
+ios/build
+*.iml
